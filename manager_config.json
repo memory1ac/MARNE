@@ -1,0 +1,18 @@
+{
+  "Games": {
+    "bf1": {
+      "GamePath": "Z:\\opt\\games\\bf1",
+      "BookmarkDb": "[Asset Bookmarks]|[Legacy Bookmarks]",
+      "Options": {
+        "SelectedPack": "Default"
+      },
+      "Packs": {
+        "Default": "BF1-63Bot-PlayerTraining-OriginalData-MapsPlus-20241229-180408:True"
+      }
+    }
+  },
+  "GlobalOptions": {
+    "FlatpakMessage": false,
+    "ApplyModOrder": "List"
+  }
+}
