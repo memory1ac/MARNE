@@ -8,3 +8,4 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Wine\AppDefaults\bf1.exe\DllOverrides]
 "dinput8"="native,builtin"
+"winmm"="native,builtin"
