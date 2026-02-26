@@ -42,6 +42,7 @@ RUN apt-get update && apt-get install -y \
     btop \
     tmux \
     curl \
+    wget \
     cargo \
     musl-tools \
     locales \
