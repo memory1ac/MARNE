@@ -57,6 +57,7 @@ RUN apt-get update && apt-get install -y \
     gnupg2 \
     winbind \
     cage \
+    wtype \
     xwayland-run \
     ca-certificates \
     tar \
@@ -64,14 +65,7 @@ RUN apt-get update && apt-get install -y \
     unzip \
     lib32gcc-s1 \
     lib32stdc++6 \
-    libc6-i386 \
-    golang-go \
-    scdoc
-
-# Install dotool
-RUN git clone https://git.sr.ht/%7Egeb/dotool \
- && cd dotool \
- && ./build.sh && sudo ./build.sh install
+    libc6-i386 
 
 # Locale
 RUN sudo locale-gen en_US.UTF-8 \
