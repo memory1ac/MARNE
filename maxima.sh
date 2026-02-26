@@ -7,7 +7,7 @@ maxima-cli &
 (
   sleep 30
   while true; do
-    dotool <<< "key Enter"
+    wtype -k Return
     sleep 1
   done
 )
