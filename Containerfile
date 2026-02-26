@@ -15,10 +15,10 @@ ENV MAXIMA_DISABLE_QRC=1
 #ENV WINEDLLOVERRIDES=dinput8=n,b
 
 # Proton stuff
-ENV PROTON_USE_WINED3D=1
 ENV PROTON_ENABLE_WAYLAND=1
 ENV WINEPREFIX=/home/maxima/.local/share/maxima/wine/prefix
 ENV PROTONPATH=/home/maxima/.local/share/maxima/wine/proton
+#ENV PROTON_USE_WINED3D=1
 #ENV PROTON_USE_NTSYNC=1
 #ENV PROTON_NO_ESYNC=1
 
